@@ -1,26 +1,26 @@
 class Dbf < Formula
   desc "Configuration tool for Debian hosts"
   homepage "https://github.com/mofelee/debianform"
-  version "0.0.0-supply-chain-test.1"
+  version "0.0.0-macos-verify-test.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-supply-chain-test.1/dbf_v0.0.0-supply-chain-test.1_darwin_arm64.tar.gz"
-      sha256 "ea0260321e0833ec7d57d2fa56a853289cc4489a6fbcfbf53919d28724cd43e2"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-macos-verify-test.1/dbf_v0.0.0-macos-verify-test.1_darwin_arm64.tar.gz"
+      sha256 "7d771d4dc7fee9d7a01b018c24fa06b15455ce7c1adf0df5da515e978513ec4d"
     else
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-supply-chain-test.1/dbf_v0.0.0-supply-chain-test.1_darwin_amd64.tar.gz"
-      sha256 "3399e34ce1c97e0578780a5f60cd8847d0155ed6b8ec331a9fc70513e66c28bb"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-macos-verify-test.1/dbf_v0.0.0-macos-verify-test.1_darwin_amd64.tar.gz"
+      sha256 "1d01e59265280bf021727dc7433714c28e5441a3d3d49f481c17c3feb960a9d5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-supply-chain-test.1/dbf_v0.0.0-supply-chain-test.1_linux_arm64.tar.gz"
-      sha256 "4c77fee3b3458f0f1f7b81fea383e4b711f0858856f11e3dc866c767ff2d9b9d"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-macos-verify-test.1/dbf_v0.0.0-macos-verify-test.1_linux_arm64.tar.gz"
+      sha256 "af6fe2237ae5fcddf54d15fcaa2b9ecc8894cbd8fe269d3fa08e562188dde1f1"
     else
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-supply-chain-test.1/dbf_v0.0.0-supply-chain-test.1_linux_amd64.tar.gz"
-      sha256 "e9d2407d4f518551cce73c31720a9a1887e6a21e6c5c9fc711f88e6798c80527"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-macos-verify-test.1/dbf_v0.0.0-macos-verify-test.1_linux_amd64.tar.gz"
+      sha256 "fef62235edc4152fe36ef5aee1b041deabb6951103084ad404291be080ce584c"
     end
   end
 

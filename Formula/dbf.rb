@@ -1,26 +1,26 @@
 class Dbf < Formula
   desc "Configuration tool for Debian hosts"
   homepage "https://github.com/mofelee/debianform"
-  version "0.0.0-homebrew-test.2"
+  version "0.0.0-verify-test.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-homebrew-test.2/dbf_v0.0.0-homebrew-test.2_darwin_arm64.tar.gz"
-      sha256 "705be56c3440a21a9968213a551cd419920507db969772de1cbd146e5680fed7"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-verify-test.1/dbf_v0.0.0-verify-test.1_darwin_arm64.tar.gz"
+      sha256 "eb50ced3395afb707d24c9203ff65fbdb60f6ae1377dff57e8e17b6971992dbe"
     else
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-homebrew-test.2/dbf_v0.0.0-homebrew-test.2_darwin_amd64.tar.gz"
-      sha256 "b0732ac9c6affe457efce159f2dbd2649b903c5c68559b4405ef6df818717407"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-verify-test.1/dbf_v0.0.0-verify-test.1_darwin_amd64.tar.gz"
+      sha256 "ee595d599d85e1ad9cafb8d562af2bded51dbf874867cb5ffd1eafcb66530786"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-homebrew-test.2/dbf_v0.0.0-homebrew-test.2_linux_arm64.tar.gz"
-      sha256 "a86a733b59e1bc15397fed772e31e4c8c67ea930d71f19b7792fcfbf90e77a88"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-verify-test.1/dbf_v0.0.0-verify-test.1_linux_arm64.tar.gz"
+      sha256 "8238e02092a8da7878713940a216b542778b0400501284c545bbfed1ead2e2df"
     else
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-homebrew-test.2/dbf_v0.0.0-homebrew-test.2_linux_amd64.tar.gz"
-      sha256 "272fc59fce5fa27587bd488e75b0940f19ae2edae1446736a78e7b0979b491c5"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-verify-test.1/dbf_v0.0.0-verify-test.1_linux_amd64.tar.gz"
+      sha256 "d39390e6e0073996f1a33dbc1d8e5bfd97df15f67034ab0b62183970fae1e0aa"
     end
   end
 

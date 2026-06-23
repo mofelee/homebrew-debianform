@@ -1,26 +1,26 @@
 class Dbf < Formula
   desc "Configuration tool for Debian hosts"
   homepage "https://github.com/mofelee/debianform"
-  version "0.0.0-macos-verify-test.1"
+  version "0.0.0-final-release-test.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-macos-verify-test.1/dbf_v0.0.0-macos-verify-test.1_darwin_arm64.tar.gz"
-      sha256 "7d771d4dc7fee9d7a01b018c24fa06b15455ce7c1adf0df5da515e978513ec4d"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-final-release-test.1/dbf_v0.0.0-final-release-test.1_darwin_arm64.tar.gz"
+      sha256 "08ad20c842db57e9668add2e144cc7af5267e438a8c3a72bcffc499c5bf67b63"
     else
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-macos-verify-test.1/dbf_v0.0.0-macos-verify-test.1_darwin_amd64.tar.gz"
-      sha256 "1d01e59265280bf021727dc7433714c28e5441a3d3d49f481c17c3feb960a9d5"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-final-release-test.1/dbf_v0.0.0-final-release-test.1_darwin_amd64.tar.gz"
+      sha256 "034eadba48c077c35f8af8ad1b5a90d1a020d6c7d5d9e01cda631495be3d4334"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-macos-verify-test.1/dbf_v0.0.0-macos-verify-test.1_linux_arm64.tar.gz"
-      sha256 "af6fe2237ae5fcddf54d15fcaa2b9ecc8894cbd8fe269d3fa08e562188dde1f1"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-final-release-test.1/dbf_v0.0.0-final-release-test.1_linux_arm64.tar.gz"
+      sha256 "3135f3b0361d0563ad321b2d7f3f74506edfd533c4ec60d0ba2b155d77c88928"
     else
-      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-macos-verify-test.1/dbf_v0.0.0-macos-verify-test.1_linux_amd64.tar.gz"
-      sha256 "fef62235edc4152fe36ef5aee1b041deabb6951103084ad404291be080ce584c"
+      url "https://github.com/mofelee/debianform/releases/download/v0.0.0-final-release-test.1/dbf_v0.0.0-final-release-test.1_linux_amd64.tar.gz"
+      sha256 "cf587895624e097388234c8be4e48f313edb6e12ad5079a4633bb66344834592"
     end
   end
 

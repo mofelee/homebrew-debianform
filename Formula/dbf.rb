@@ -1,26 +1,26 @@
 class Dbf < Formula
   desc "Configuration tool for Debian hosts"
   homepage "https://github.com/mofelee/debianform"
-  version "0.1.0-beta.5"
+  version "0.1.0-beta.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mofelee/debianform/releases/download/v0.1.0-beta.5/dbf_v0.1.0-beta.5_darwin_arm64.tar.gz"
-      sha256 "a8eb6ff177b60d1ff6dcd4e40b83d0831d16a627c1d5010866770b7235d14563"
+      url "https://github.com/mofelee/debianform/releases/download/v0.1.0-beta.6/dbf_v0.1.0-beta.6_darwin_arm64.tar.gz"
+      sha256 "cd50f8d7106091d82ea41ead31da87333459816fc20befe0a3503c722cf1b152"
     else
-      url "https://github.com/mofelee/debianform/releases/download/v0.1.0-beta.5/dbf_v0.1.0-beta.5_darwin_amd64.tar.gz"
-      sha256 "f24a7122196b730a2361873822002170a21d468bd602a98d4fca516db68a0ad2"
+      url "https://github.com/mofelee/debianform/releases/download/v0.1.0-beta.6/dbf_v0.1.0-beta.6_darwin_amd64.tar.gz"
+      sha256 "ac1e2b506d72d3280f1edc421399b691b3ef82a0abb28280a4fe07c85999dbb6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mofelee/debianform/releases/download/v0.1.0-beta.5/dbf_v0.1.0-beta.5_linux_arm64.tar.gz"
-      sha256 "a705a3de607ea23871b73447ff676c109b740f3a5ee86239cf49ed99ac6b29b0"
+      url "https://github.com/mofelee/debianform/releases/download/v0.1.0-beta.6/dbf_v0.1.0-beta.6_linux_arm64.tar.gz"
+      sha256 "c16ea3eba3ea5fdb0bded6a428bb6a87d0413413335d17c43a89f4b1b26e2a47"
     else
-      url "https://github.com/mofelee/debianform/releases/download/v0.1.0-beta.5/dbf_v0.1.0-beta.5_linux_amd64.tar.gz"
-      sha256 "bdca7aeabfaa31c2a91bb142ad974182974a5c93071cd516bf6d884cd8954136"
+      url "https://github.com/mofelee/debianform/releases/download/v0.1.0-beta.6/dbf_v0.1.0-beta.6_linux_amd64.tar.gz"
+      sha256 "e315789650292443bfb0dba966b83e4f539c407f2d43640fd82fcd71dc01357e"
     end
   end
 
